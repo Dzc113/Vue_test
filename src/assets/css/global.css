@@ -1,0 +1,27 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.rowCard {
+  height: 80px;
+}
+.rowCol{
+  height: 80px;
+}
+/* 覆盖el-Container中的Main,达到表头高度正常的效果 *大坑* */
+.el-main{
+  background-color: #e9eef3;
+  color: #333;
+  line-height: 20px !important;
+}
+.el-table {
+  font-size: 12px;
+  top: -20px;
+}
